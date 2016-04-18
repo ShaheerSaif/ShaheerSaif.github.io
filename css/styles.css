@@ -47,6 +47,10 @@ p {
   font-family: "Droid Sans";
 }
 
+.text {
+	text-align: -webkit-left;	
+}
+
 .pic {
   margin-top: 10px;
   height: 300px;
