@@ -105,6 +105,7 @@ p {
 
 .row {
   max-width: 90vw;
+  text-align: -webkit-center;
 }
 
 .content:hover {
