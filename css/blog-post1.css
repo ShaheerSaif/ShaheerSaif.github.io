@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  background-image: url(/images/code-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden;
+  font-family: "Arvo";
+  font-weight: lighter;
+  color: white;
+  letter-spacing: 0.2em;
+  text-align: center;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+header .header-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width: 380px) {
+  .title {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (min-width: 415px) {
+  .title {
+    font-size: 2em;
+  }
+  .title {
+    font-size: 2.5em;
+  }
+  .author-name {
+    font-family: "PT+Sans";
+    letter-spacing: normal;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+.content {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  position: relative;
+  display: block;
+  vertical-align: baseline;
+  font-family: "droid sans";
+}
+
+.content p {
+  max-width: 800px;
+  display: block;
+  width: 85%;
+  margin: 40px auto;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+footer {
+  bottom: 0;
+  height: 200px;
+  background-color: rgba(52, 52, 52, 0.6);
+  color: white;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  margin-top: 3em;
+  font-family: "droid sans";
+}
+
+footer .footer-inner {
+  padding: 10px 50px 10px 50px;
+}
+
+footer .contact-info {
+  text-align: center;
+}
+
+footer .social-info {
+  text-align: center;
+}
+
+footer .social {
+  list-style: none;
+}
+
+footer .social li {
+  display: inline;
+  text-decoration: none;
+  padding-right: 10px;
+}
