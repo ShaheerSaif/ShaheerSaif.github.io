@@ -97,6 +97,7 @@ p {
 .blog-post {
   max-width: 100vw;
   padding: 13px;
+  text-align: center;
 }
 
 
