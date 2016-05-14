@@ -75,7 +75,7 @@ p {
   margin-right: auto;
   display: block;
 }
-@media (min: 720px) {
+@media screen and (min: 720px) {
 	.pic
 	   margin-top: 10px;
   	   height: 200px;
@@ -118,7 +118,7 @@ p {
   padding: 0 15px;
   font-size: 20px
 }
-@media (min-width: 569px) {
+@media screen and (min-width: 569px) {
 	.nav-list li a {
 		font-size: 10px;
 	}
