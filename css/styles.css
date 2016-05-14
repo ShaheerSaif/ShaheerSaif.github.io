@@ -37,7 +37,7 @@ img { max-width: 100%; }
 
 html { font-size:100%; }
 
-@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width: 640px) { a {font-size:10px;} }
 @media (min-width:960px) { body {font-size:1.3rem;} }
 @media (min-width:1100px) { body {font-size:1.2rem;} }
 
